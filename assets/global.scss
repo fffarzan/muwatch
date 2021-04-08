@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'SFProText-Regular';
+  src: local('SFProText-Regular'),
+    url(~assets/fonts/SFProText-Regular.ttf) format('truetype');
+}
+
+// this is the only way to change font of all pages in nuxt + vuetify
+.v-application,
+#app {
+  font-family: 'SFProText-Regular' !important;
+}
